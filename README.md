@@ -1,9 +1,9 @@
 # Fogata en foso · v2
 
-Modelo 3D de la fogata en foso: banca perimetral en listones de teca sobre marcos de tubo cuadrado de 4 cm, espaldar inclinado 15° en la mitad alta, fogón de ladrillo refractario y tolete con aire primario desde la parte baja del terreno, cámara de doble combustión, intercambiador para las piernas y mesa tipo barra ovalada en teca sobre el fogón.
+Modelo 3D de la fogata en foso: banca perimetral en listones de teca sobre marcos de tubo cuadrado de 4 cm, espaldar inclinado 15° en la mitad alta, fogón de ladrillo refractario y tolete con aire primario desde la parte baja del terreno, cámara de doble combustión, intercambiador para las piernas y mesa tipo barra circular en listones de teca en cuña, apoyada sobre la corona del fogón.
 
 - `index.html`: visor 3D. Funciona solo, sin servidor ni librerías externas.
-- `fogata_foso.ifc`: modelo IFC4 con 304 piezas, materiales y propiedades (medida de corte y notas en `Pset_PiezaFogata`). Se abre en Revit (Insertar › Vincular IFC) o en cualquier visor IFC.
+- `fogata_foso.ifc`: modelo IFC4 con 311 piezas, materiales y propiedades (medida de corte y notas en `Pset_PiezaFogata`). Se abre en Revit (Insertar › Vincular IFC) o en cualquier visor IFC.
 
 Visor publicado: https://handeress.github.io/Fogata/ (Settings › Pages › rama `main`, carpeta `/ (root)`).
 
@@ -18,7 +18,7 @@ Visor publicado: https://handeress.github.io/Fogata/ (Settings › Pages › ram
 ## Supuestos del modelo
 
 - Ejes: origen en el centro del foso a nivel de piso terminado; la entrada queda hacia −Y.
-- Mesa ovalada supuesta en 102 × 132 cm exterior (largo hacia la entrada pendiente de confirmar).
+- Mesa circular Ø 102 (R31–R51), 36 listones en cuña de 10° con 1 cm de luz; travesaños apoyados sobre la corona, cubierta a +47.
 - El riel superior del espaldar vuela hasta 18 cm sobre el muro hacia el fondo (pendiente de definir el anclaje).
-- Teca del borde interior de la mesa a 5 cm de la boca: se va a quemar.
+- Teca del borde interior de la mesa a 5 cm de la boca y 5 cm sobre la corona: se va a quemar.
 - Terreno, viga, grava y escalera son referencia.
