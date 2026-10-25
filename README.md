@@ -3,7 +3,7 @@
 Modelo 3D de la fogata en foso: banca perimetral en listones de teca sobre marcos de tubo cuadrado de 4 cm, espaldar inclinado 15° en la mitad alta, fogón de ladrillo refractario y tolete con aire primario desde la parte baja del terreno, cámara de doble combustión, intercambiador para las piernas y mesa tipo barra circular en listones de teca en cuña, apoyada sobre la corona del fogón.
 
 - `index.html`: visor 3D. Funciona solo, sin servidor ni librerías externas.
-- `fogata_foso.ifc`: modelo IFC4 con 311 piezas, materiales y propiedades (medida de corte y notas en `Pset_PiezaFogata`). Se abre en Revit (Insertar › Vincular IFC) o en cualquier visor IFC.
+- `fogata_foso.ifc`: modelo IFC4 con 313 piezas, materiales y propiedades (medida de corte y notas en `Pset_PiezaFogata`). Se abre en Revit (Insertar › Vincular IFC) o en cualquier visor IFC.
 
 Visor publicado: https://handeress.github.io/Fogata/ (Settings › Pages › rama `main`, carpeta `/ (root)`).
 
@@ -13,7 +13,8 @@ Visor publicado: https://handeress.github.io/Fogata/ (Settings › Pages › ram
 - Fondo apisonado + 5 cm de grava suelta (piso terminado = nivel 0).
 - Muro en tolete en soga, inclinado 15° (igual al espaldar), desde la viga hasta el terreno, con hueco de 1,00 m libre para la escalera.
 - Viga en concreto ciclópeo 25 × 35 cm bajo el muro, con pase para el ducto de aire.
-- Ducto de aire primario 10 cm bajo la grava; la toma sale al terreno por la parte baja, a nivel de la parrilla.
+- Relleno perimetral (berma) contra el viento, en todo el contorno menos la entrada: pie interior a 40 cm del borde del foso, cresta 40 cm sobre el terreno y 40 de ancho, taludes 1:2. ≈ 8,9 m³ compactado.
+- Ducto de aire primario 10 cm bajo la grava; sale de la viga y baja al 6 % por debajo del relleno hasta la toma, 25 cm por fuera del pie del relleno en el lado bajo (boca a −15 cm, 26 cm por debajo de la parrilla).
 
 ## Supuestos del modelo
 
@@ -21,4 +22,4 @@ Visor publicado: https://handeress.github.io/Fogata/ (Settings › Pages › ram
 - Mesa circular Ø 102 (R31–R51), 36 listones en cuña de 10° con 1 cm de luz; travesaños apoyados sobre la corona, cubierta a +47.
 - El riel superior del espaldar vuela hasta 18 cm sobre el muro hacia el fondo (pendiente de definir el anclaje).
 - Teca del borde interior de la mesa a 5 cm de la boca y 5 cm sobre la corona: se va a quemar.
-- Terreno, viga, grava y escalera son referencia.
+- Terreno, viga, grava y escalera son referencia. Los extremos del relleno en la entrada rematan en talud 1:2 desde un corte radial (1,24 al pie interior).
